@@ -10,7 +10,7 @@ app.use(express.json())
 
 
 app.get("/",async(req,res)=>{
-    res.status(200).json({message:"hello from aws(ci-cd done now the changes will go to the production automatically)"})
+    res.status(200).json({message:"hello from aws-anurag"})
 })
 
 
