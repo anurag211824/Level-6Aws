@@ -10,7 +10,7 @@ app.use(express.json())
 
 
 app.get("/",async(req,res)=>{
-    res.status(200).json({message:"hello from aws-anurag"})
+    res.status(200).json({message:"hello from aws-anurag all things fixed"})
 })
 
 
